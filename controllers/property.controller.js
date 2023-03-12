@@ -1,6 +1,8 @@
 import Property from "../mongodb/models/property.js";
 import User from "../mongodb/models/user.js";
 
+// forgot to import mongoose
+import mongoose from "mongoose";
 import * as dotenv from "dotenv";
 import { v2 as cloudinary } from "cloudinary";
 
